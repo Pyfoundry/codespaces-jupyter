@@ -1,0 +1,22 @@
+class SpendWise:
+    def __init__(self):
+        self.transactions = []
+ def add_transaction(self, amount, category, description=""):
+        """Adds a transaction to the list."""
+        self.transactions.append({
+            "amount": amount,
+            "category": category,
+            "description": description
+        })
+    
+    def get_total_spent(self):
+        """Returns the total amount spent."""
+        return sum(t["amount"] for t in self.transactions)
+ def get_category_spending
+ def get_transactions
+ def find_expensive_transaction
+ def get_average_spent
+ def filter_transactions
+ def remove_transaction:
+ def get_monthly_budget_status
+     def reset_transactions
